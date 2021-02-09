@@ -1,0 +1,40 @@
+{
+  "name": "aarch64-asm",
+  "version": "0.0.1",
+  "description": "AArch64 Assembler",
+  "main": "",
+  "module": "index.js",
+  "private": false,
+  "scripts": {
+    "build:dev": "npx webpack --config webpack.dev.js",
+    "build:prod": "npx webpack --config webpack.prod.js",
+    "build:all": "npm run build:dev && npm run build:prod",
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [
+    "ARM Architecture",
+    "AAarch64",
+    "Computer Architecture"
+  ],
+  "author": "Charles B. Owen",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/runtime": "7.12.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "jasmine-core": "^3.6.0",
+    "karma": "^6.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-sourcemap-loader": "^0.3.8",
+    "karma-webpack": "^5.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
