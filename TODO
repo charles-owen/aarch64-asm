@@ -1,19 +1,96 @@
-FIXME: Deleting a tab is not working correctly (does not move to another tab)
-FIXME: Grabbing the horizontal scroll bar does not work right in Firefox
-FIXME: Pressing delete in a dialog box deletes in underlying circuit
+Assembler Instructions
 
-TODO: Update dompurify
-TODO: Update promise-polyfill
+Done:
+adc Add with Carry
+add Add
+and Bitwise AND
+asr Arithmetic shift right
+asrv Arithmetic shift right variable
+b Branch
+b<cond> Conditional branch
+b.<cond> Conditional branch
+bl Branch and link
+cmp Compare
+cmn Compare negative
+eon Bitwise exclusive OR NOT
+eor Bitwise exclusive OR
+lsl Logical shift left
+lslv Logical shift left variable
+lsr Logical shift right
+lsrv Logical shift right variable
+mov Move variations
+movz Move with zero
+movk Move with keep
+movn Move with not
+mrs Move status to register
+msr Move register to status
+nop No operation
+orn Or Not
+orr Or
+ret Return from subroutine
+ror Rotate right
+rorv Rotate right variable
+sbc Subtract with carry
+sub Subtract
+tst Test bits
 
-FUTURE: 7-segment configurable as bus input or a-g
-FUTURE: 7-segment decoder configurable as bus input and/or output
-FUTURE: 16 Letter display becomes general letter display (8, 7, or 4 bits)
+To do:
+MOV inverted wide immediate
+MOV bitmask immediate
 
-FUTURE: Clipboard operations: cut, copy, paste
+Next:
+ldr Load register
+str Store register
+ldp Load pair
+stp Store pair
 
-TODO: Unit testing for InstructionDecoder4
-TODO: Help for InstructionDecoder4
+High priority:
+adr For PC-relative address
+bic Bitwise bit clear
+extr Extract register
+mneg Multiply negative
+mul Multiply
+mvn Bitwide NOT
+neg Negate
+ngc Negate with carry
+sdiv Signed divide
+udiv Unsigned divide
+blr Branch to register and link
+br Branch of register
+madd Multiply add
+ubfm Unsigned bitmap move
+sbfm Signed bitmap move
 
-TODO: Javascript documentation (ongoing)
-
-FUTURE: Instruction decoder and registers assignment discrete Rw line
+Low:
+adrp Form PC-relative address to 4 KB page
+cbnz Compare and branch if nonzero
+cpz Compare and branch if zero
+ccmn Conditional compare negative
+ccmp Conditional compare
+cinc Conditional increment
+cinv Conditional invert
+cls Count leading sign bits
+clz Count leading zeros
+cneg Conditional negative
+csel Conditional select
+cset Conditional set
+csetm Conditional set mask
+csinc Conditional select increment
+csinv Conditional select invert
+csneg Conditional select neg
+ldur Load register (unscaled)
+msub Multiply subtract
+smaddl Signed multiply add long
+smnegl Signed multiply negate long
+smsubl Signed multiple subtract long
+smulh Signed multiply high
+smull Signed multiply low
+stur Store register (unscaled)
+svc Supervisor call
+tbnz Test bit and branch if Nonzero
+tbz Test bit and branch if zero
+umaddl Unsigned multiple add long
+umnegl Unsigned multiply negate long
+umsubl Unsigned multiply subtract long
+umulh Unsigned multiply high
+umull Unsigned multiply low

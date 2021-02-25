@@ -8,7 +8,7 @@ Assembler for AArch64 assembly language written in Javascript.
 
 ## License
 
-Copyright 2021 Michigan State University
+Copyright 2021 Michigan States University
 
 aarch64-asm is released under the MIT license.
 

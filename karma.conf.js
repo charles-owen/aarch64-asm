@@ -1,4 +1,4 @@
-const webpackConfig = require('./webpack.karma.js');
+const webpackConfig = require('./webpack.karma.conf.js');
 const path = require('path');
 
 //

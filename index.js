@@ -1,3 +1,3 @@
-import {Assembler} from "./src/AArch64Asm/Assembler";
+import {Assembler} from "./src/Assembler";
 export {Assembler}
 
